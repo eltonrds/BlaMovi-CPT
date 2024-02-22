@@ -1,0 +1,303 @@
+
+/* banner favoritos */
+
+#main_favoritos .slider-item{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+/* texto */
+
+
+#main_favoritos h2,
+h3 {
+    font-family: var(--font1);
+    color: var(--amarelo);
+    text-align: center;
+}
+
+#main_favoritos h2 {
+    margin-top: 8%;
+    font-size: 50px;
+    height: 90px;
+}
+
+#main_favoritos h3 {
+    color: var(--amarelo);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#main_favoritos span {
+
+    color: var(--amarelo);
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* seção filmes e series  */
+
+.fav-card,.fav-card-linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+}
+
+.fav-card>img {
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+.fav-card>div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 40px;
+}
+
+/* #main_favoritos .fav-card,.fav-card-linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+}
+
+#main_favoritos .fav-card>img {
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+#main_favoritos .fav-card>div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 40px;
+} */
+
+.fav-card>a{
+    color: #7DD7FE;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fav-card>a:hover{
+    color: var(--vermelho);
+}
+
+#main_favoritos button[type="submit"] {
+    margin-top: 5%;
+    display: flex;
+    width: 12.4%;
+    padding: 15px;
+    background-color: var(--amarelo);
+    color: var(--preto);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 43%;
+    font-size: 23px;
+
+    position:relative;
+    top:0;
+    transition: all .1s ease-in-out;
+}
+  
+#main_favoritos button[type="submit"]:hover {
+    background-color: var(--branco);
+    top:-4px;
+    box-shadow:0 4px 3px rgba(0, 0, 0, 0.267);
+}
+
+#main_favoritos #teste3{
+    position:relative;
+    top:0;
+    padding:4px;
+    transition: all .1s ease-in-out;
+}
+#main_favoritos #teste3:hover{
+    top:-4px;
+    box-shadow: 0px 0px 10px 4px #fbc02c;
+}
+
+#main_favoritos .itens{
+    width: 90%;
+    margin-top: 20px;
+}
+#main_favoritos .streams{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+ }
+ #main_favoritos .icones{
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    gap: 10px;
+ }
+
+ 
+ #main_favoritos .icones>img{
+    height: 25px;
+}
+
+#main_favoritos .icones>span{
+    color: var(--branco);
+} */
+
+  /* SWIPER */
+
+.swipercard {
+    color: #FBC02C;
+    max-width: 1400px;
+    width: 100%;
+}
+.swiper-slide-card {
+    width: 220px;
+    padding: 55px;
+}
+
+.swiper-wrapper {
+    gap: 30px;
+}
+
+.swiper-button-next, 
+.swiper-button-prev, 
+.swiper-pagination{
+    background: transparent;
+}
+    
+
+
+
+/*  RESPONSIVO */
+
+@media screen and (max-width: 1200px) {
+    #main_favoritos .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    #main_favoritos .menu_barras {
+        display: initial;
+    }
+
+    #main_favoritos .menu_barras svg {
+        height: 50px;
+        fill: var(--branco);
+    }
+
+    #main_favoritos .posicionamento_header {
+        position: relative;
+    }
+
+    #main_favoritos .posicionamento_header nav {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-color: #060821c3;
+        flex-direction: column;
+        z-index: 1;
+        padding: 5%;
+        backdrop-filter: blur(10px);
+        border-radius: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+    }
+
+    #main_favoritos header nav a {
+        margin: 30px 0;
+        font-size: 22px;
+    }
+
+    #main_favoritos .fav_banner_img {
+        display: none;
+    }
+
+    #main_favoritos .fav_banner_img {
+        display: none;    
+    }
+
+    #main_favoritos .fav_banner_texto {
+        width: 60%;
+    }
+
+    #main_favoritos .fav-banner{
+        height: 773px;
+    }
+    
+    #main_favoritos .responsivo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    #main_favoritos .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    #main_favoritos button[type="submit"]{
+        display: none;
+    }
+
+    #main_favoritos .fav_banner_img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main_favoritos .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    #main_favoritos #divBusca {
+        display: none;
+    }
+
+    #main_favoritos header nav{
+        width: 260px;
+    }
+
+    #main_favoritos h2{
+        font-size: 35px;
+        height: 100px;
+    }
+
+    #main_favoritos .container{
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #main_favoritos .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    #main_favoritos h2{
+        font-size: 35px;
+        height: 100px;
+    }
+
+    #main_favoritos ul{
+        display: none;
+    }
+
+    #main_favoritos .fav-card>img {
+        height: 350px;
+        width: 250px;
+    }
+    #main_favoritos .img-footer {
+        margin-top: 100px;
+    }
+}

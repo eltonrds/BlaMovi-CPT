@@ -1,0 +1,388 @@
+
+
+#feed{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+#feed span{
+    display: flex;
+    align-items: center;
+    /* margin: 30px 20px 10px 10px; */
+    /* justify-content: center; */
+    gap: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-family: var(--font1);
+    /* color: var(--cor1); */
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+#feed .textomenu{
+    font-size: 20px;
+    font-family: var(--font1);
+    color: var(--cor1);
+}
+
+#feed .menu_barras{
+    display: none;
+}
+
+#feed nav{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 10px; */
+}
+
+#feed #divBusca {
+    background-color: #E0EEEE;
+    border: solid 2px #fdf9f900;
+    border-radius: 10px;
+    max-width: 320px;
+    width: 100%;
+    height: 31px;
+
+}
+
+#feed #txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 20px;
+    border: none;
+    height: 27px;
+    width: 243px;
+    border-radius: 8px;
+}
+
+#feed #btnBusca {
+    border: none;
+    float: right;
+    height: 28px;
+    border-radius: 7px;
+    width: 70px;
+    font-weight: bold;
+    background: #FBC02C;
+}
+
+#feed .actionBtnComments img{
+    width: 28px;
+}
+
+#feed #divBusca img {
+    float: left;
+}
+
+#feed .sidebar{
+    position: fixed;
+    /* top: 0; */
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 100%;
+    padding: 20px 20px 10px 5px;
+    border-right: 1px solid #FBC02C;
+}
+#feed .sidebar button{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+#feed .navSidebar button span a{
+    display: flex;
+    text-decoration: none;
+}
+
+/* Formulário de envio */
+
+#feed main{
+    max-width: 1100px;
+    /* margin: 0 auto; */
+    margin-left: 205px;
+}
+
+#feed .newPost{
+    background: #DCE0E6;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    margin: 50px 0;
+    padding: 17px 13px;
+    border: 2px solid var(--cor1);
+    border-radius: 3px;
+}
+
+#feed div.newPost div.infoUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#feed div.newPost div.infoUser img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* background-color: #333; */
+}
+
+#feed div.newPost form.formPost{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#feed div.newPost form.formPost textarea{
+    background-color: #DCE0E6;
+    padding: 20px;
+    margin: 15px 5px;
+    border: transparent;
+    resize: none;
+    outline: none;
+    font-family: var(--font1);
+    /* font-weight: bold; */
+    color: black;
+}
+
+#feed .iconsUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+#feed .icons{
+    margin-top: 7px;
+}
+
+#feed .btnFileForm{
+    outline: none;
+    background: transparent;
+    border: transparent;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#feed .btnFileForm img{
+    width: 20px;
+}
+
+#feed .posts{
+    /* margin-bottom: 200px; */
+    background-color: #DCE0E6;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#feed .actionBtnPost{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#feed .filesPost{
+    display: flex;
+    align-items: center;
+    width: 274px;
+    height: 44px;
+    justify-content: center;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#feed .infoUserPost{
+    display: flex;
+    align-items: center;
+}
+
+#feed .infoUserPost img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#feed p{
+    margin-bottom: 10px;
+    font-family: var(--font1);
+    font-size: 13px;
+    display: flex;
+    color: black;
+}
+
+#feed .textoPost{
+    font-size: 18px;
+    text-align: justify;
+}
+
+#feed #mais{
+    display: none;
+}
+
+#feed .textoComments{
+    font-size: 16px;
+}
+
+#feed .nameAndHour strong{
+    font-family: var(--font1);
+    color: black;
+    display: flex;
+}
+
+#feed .balanoalvo{
+    margin-bottom: 15px;
+}
+
+#feed .imgUserComments{
+    margin: 5px 10px 0px 0px;
+}
+
+#feed .infoUserComments{
+    display: flex;
+    align-items: center;
+}
+
+#feed .actionBtnComments{
+    display: flex;
+    
+}
+
+#feed .filesPostComment{
+    border: none;
+    background: transparent;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#feed .colorir_texto_filmes{
+    color: var(--cor2);
+    font-weight: 600;
+    font-family: var(--font1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#feed .carregamento{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1304px) {
+   .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    } 
+    
+    #feed main{
+        width: 60%;
+    }
+
+    #feed .actionBtnPost button{
+        margin-left: 5px;
+    }
+
+    #feed .menu_barras{
+        display: initial;
+    } 
+
+    #feed .menu_barras svg{
+        height: 50px;
+        fill: white;
+    } 
+
+    #feed .posicionamento_header {
+        position: relative;
+    }
+
+    #feed.posicionamento_header nav{
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-color: #060821c3;
+        flex-direction: column;
+        z-index: 1;
+        padding: 5%;
+        backdrop-filter: blur(10px);
+        border-radius: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+    } 
+
+    #feed header nav a{
+        margin: 30px 0;
+        font-size: 22px;
+    } 
+
+    
+}
+
+@media screen and (max-width: 1166px) {
+    #feed  #divBusca{
+        display: none;
+    } 
+
+    #feed  .filesPost span{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #feed  #divBusca{
+        display: none;
+    }
+
+    #feed  .posicionamento_header nav{
+        width: 78%;
+    }
+}
+
+
+
+@media screen and (max-width: 540px) {
+    #feed  nav button span .textomenu{
+        display: none;
+    }
+
+    #feed  .sidebar{
+        width: 75px;
+    }
+
+    #feed  main{
+        width: 75%;
+        margin-left: 100px;
+    }
+
+    #feed  .navSidebar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 368px) {
+    #feed  div.newPost form.formPost textarea{
+    width: 138px;
+}
+}

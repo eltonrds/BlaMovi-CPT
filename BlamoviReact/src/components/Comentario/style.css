@@ -1,0 +1,33 @@
+#comentarios .textoComments{
+    font-size: 16px;
+}
+
+#comentarios .nameAndHour strong{
+    font-family: var(--font1);
+    color: black;
+}
+
+#comentarios .balanoalvo{
+    margin-bottom: 15px;
+}
+
+#comentarios .imgUserComments{
+    margin: 5px 10px 0px 0px;
+}
+
+#comentarios .infoUserComments{
+    display: flex;
+    align-items: center;
+}
+
+#comentarios .actionBtnComments{
+    display: flex;
+    
+}
+
+#comentarios .filesPostComment{
+    border: none;
+    background: transparent;
+    margin-right: 5px;
+    cursor: pointer;
+}

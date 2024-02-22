@@ -1,0 +1,121 @@
+#detalhe_filmesInformacoes .separar_comentario {
+    margin-top: 80px;
+    border-top: 1px solid #FBC02C;
+}
+
+#detalhe_filmesInformacoes .Comentarios_filmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#detalhe_filmesInformacoes .img4 {
+    margin-right: 20px;
+    width: 40px;
+    height: 43px;
+}
+
+#detalhe_filmesInformacoes .Comentarios_todos {
+    display: flex;
+}
+
+#detalhe_filmesInformacoes .img_coment {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0px 0px 20px;
+}
+
+#detalhe_filmesInformacoes .foto_comentario {
+    width: 140px;
+    height: 140px;
+    margin-top: 125px;
+    border-radius: 50%;
+}
+
+#detalhe_filmesInformacoes .nome_usuario {
+    margin-left: 9px;
+    margin-bottom: -20px;
+color: #FBC02C;
+font-size: 25px;
+}
+
+#detalhe_filmesInformacoes .usuario1 {
+    color: #FBC02C;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 100px;
+      padding: 0px 0px 0px 30px;
+}
+
+#detalhe_filmesInformacoes .usuario2 {
+    color: #FBC02C;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 60px;
+    padding: 0px 0px 0px 30px;
+}
+
+#detalhe_filmesInformacoes .comentario_texto {
+    color: #ffffff;
+    text-align: justify;
+    margin-top: -85px;
+    margin-bottom: 7px;
+    padding: 0px 50px 0px 180px;
+}
+
+#detalhe_filmesInformacoes .like {
+    width: 30px;
+    height: 30px;
+    margin-left: 180px;
+    margin-right: -150px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    #detalhe_filmesInformacoes .subtitulo3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #detalhe_filmesInformacoes .subtitulo3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    #detalhe_filmesInformacoes .foto_comentario {
+        width: 50px;
+        height: 50px;
+        margin-top: 135px;
+        margin-bottom: 90px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #detalhe_filmesInformacoes .comentario_texto {
+        padding: 0px 14px 0px 30px;
+        
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #detalhe_filmesInformacoes .like {
+        width: 25px;
+    height: 25px;
+    margin-left: 30px;
+    margin-right: -15px;
+        
+    }
+}
+
+@media screen and (max-width: 523px) {
+    #detalhe_filmesInformacoes .separar_comentario {
+        display: none;
+    } 
+}
+
+  

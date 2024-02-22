@@ -1,0 +1,756 @@
+/* /////////////////////// */
+
+/* ajustes Amanda */
+
+
+@media screen and (max-width: 800px) {
+
+
+    #recuperacao_senha .container {
+     
+    }
+  
+  
+  }
+  
+  /* @media screen and (max-width: 814px) {
+  
+  
+    #main_cadastro .container {
+      margin-left: -86px;
+    }
+  
+  
+  } */
+  
+  #recuperacao_senha .ajustes{
+    background-color: transparent;
+  }
+  #recuperacao_senha form div {
+    background-color: transparent;
+  }
+  #recuperacao_senha form div input {
+    background-color: var(--branco);
+  }
+  
+  #recuperacao_senha form h1 {
+    background-color: transparent;
+  }
+  
+  #recuperacao_senha #foto {
+    background-color: transparent;
+  }
+  #recuperacao_senha .alinhamento .link {
+    background-color: transparent;
+  }
+  
+  #recuperacao_senha  main {
+    max-width: 100%;
+    margin: 0 auto;
+  } 
+  #recuperacao_senha input {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  
+  #recuperacao_senha .ajustesrodape{
+    width: 100%;
+    
+  
+  }
+  
+  @media screen and (max-width: 877px) {
+    #recuperacao_senha .ajustesrodape {
+      width: 755px;
+    }
+  
+  }
+  
+   /* .cineminha  {
+  max-width: 100%;
+   height: 100%;
+   opacity: 0.2;
+  } */
+  
+  #recuperacao_senha .container{
+    /* background:
+    linear-gradient(180deg, #000 0%, #00000080 50%, #000 100%),
+    url("../../assets/images/cineminha.png"); */
+    /* max-width: 100%;
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+  } 
+  
+  #recuperacao_senha .cineminha{
+    width: 100%;
+  }
+  
+  
+  #recuperacao_senha .content{
+    background-color: transparent;
+    padding: 30px;
+  }
+  
+  @media screen and (max-width: 10000px) {
+  
+  
+    #recuperacao_senha #footer img{
+      display: none;
+    }
+  
+   
+  
+  
+  }
+  
+  
+  
+  
+  /* ajustes Amanda*/
+  
+  
+  
+  /* //////////////////////// */
+  
+  
+  #recuperacao_senha .menu ul {
+      display: flex;
+      flex-wrap: wrap;
+  
+    }
+  
+    #recuperacao_senha .menu ul li {
+      text-decoration: none;
+    }
+  
+    #recuperacao_senha .menu ul a {
+      color: #FBC02C;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: var(--font2);
+      align-items: center;
+  
+    }
+  
+    #recuperacao_senha .menu ul a:hover {
+      color: #e40810;
+      transform: scale(1.5);
+      text-shadow: 0px 5px 10px rgba(239, 180, 4, 0.6);
+  
+    }
+  
+    #recuperacao_senha .hamburguer {
+      width: 50px;
+      height: 50px;
+  
+      fill: var(--branco);
+    }
+  
+  
+    #recuperacao_senha .banner {
+  
+    
+      /* width: 100%;
+      max-width: 1920px; */
+      /* height: 700px; */
+  
+      background-position: center;
+      /* background-size: cover; */
+      /* background-attachment: fixed; */
+      background-repeat: no-repeat;
+      /* display: flex;
+      position: relative; */
+      width: 100%;
+  
+  
+    }
+  
+   
+  
+    /* .onda {
+      width: 100%;
+      max-width: 1920px;
+      height: 300px;
+      background-image: url(Imagem/wave.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      bottom: 0;
+  
+    } */
+  
+  
+    /* .favoritos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+  
+    } */
+  
+    /* .cards {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      margin-bottom: 60px;
+  
+    }
+  
+    .poster {
+      justify-content: space-between;
+    } */
+  
+    /* .poster>img {
+      width: 100%;
+      max-width: 180px;
+      height: 100%;
+      max-height: 250px;
+    margin: 10px;
+  
+      border-radius: 30px;
+    border: 2px solid #C12D6D;
+      padding: 20px;
+  
+    } */
+  
+    /* h2 {
+      font-family: var(--font2);
+      color: #FBC02C;
+      margin: 40px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    h3 {
+      font-family: var(--font2);
+      color: #FBC02C;
+      text-align: center;
+  
+    }
+  
+    .poster div {
+      display: flex;
+      justify-content: center;
+  
+  
+    }
+  
+  
+    .poster div a {
+      width: 150px;
+      height: 20px;
+      border-radius: 5px;
+      background: #e8a806;
+      font-family: var(--font2);
+      font-size: 15px;
+      color: var(--branco);
+      text-align: center;
+      text-decoration: none;
+      text-shadow: #e40810;
+    } */
+  
+    /* .poster div a:hover {
+      border: #C12D6D;
+      color: #e40810;
+      background: #0f0;
+    } */
+  
+  
+  
+    /* .poster:hover {
+      scale: 1.05;
+      border: 2px #e40810 double;
+        } */
+  
+    /* .poster {
+      background-color: #000;
+      border-radius: 10px;
+    } */
+  
+    /* span {
+      font-family: var(--font2);
+      color: var(--branco);
+    } */
+  
+    /* #main_cadastro footer {
+     display: flex; 
+      background-image: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(1, 0, 20, 0) 25%, rgba(0, 0, 7, 0) 75%, rgba(0, 0, 0, 1) 100%), url(../BlaMovi/Imagem/footer.png);
+     margin: 30px; 
+      width: 100%;
+     max-width: 1920px;
+      height: 100%;
+      max-height: 100px;
+    } */
+  
+  
+    #recuperacao_senha .contato {
+      display: flex;
+      margin: 20px;
+      justify-content: center;
+      background-color: transparent;
+    }
+  
+    #recuperacao_senha .contato a {
+      font-family: var(--font2);
+      text-decoration: none;
+      color: var(--branco);
+      font-size: 18px;
+    }
+  
+    #recuperacao_senha .imagem{
+      background-color: transparent;
+    }
+    #recuperacao_senha .imagem img{
+      background-color: transparent;
+      margin: 3px;
+    }
+  
+  
+    #recuperacao_senha footer>div {
+      width: 100%;
+      background-color: var(--preto);  
+  
+    }
+  
+  
+    
+    #recuperacao_senha footer ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+      height: 50px;
+       background-color: var(--preto);
+      margin: 10px;
+      list-style-type: none
+      
+  
+    }
+  
+    #recuperacao_senha footer div ul li a {
+      font-family: var(--font1);
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      margin: 10px;
+    }
+  
+    #recuperacao_senha footer ul a:hover {
+      color: rgba(219, 119, 112, 0.533);
+      transform: scale(2.1);
+      text-shadow: 0px 5px 10px rgba(239, 180, 4, 0.6);
+    }
+  
+  
+    /* RESPONSIVIDADE */
+  
+  
+  
+    @media screen and (max-width: 1365px) {
+        #recuperacao_senha h1 {
+        display: none;
+      }
+  
+    }
+  
+    @media screen and (max-width: 1000px) {
+        #recuperacao_senha .card {}
+  
+        #recuperacao_senha .poster>img {}
+  
+        #recuperacao_senha .hamburguer {
+        display: none;
+      }
+  
+      /* .poster:hover {
+          box-shadow: 0px 0px 10px 5px hsl(356, 92%, 48%);
+          border: 5px solid hsl(321, 66%, 35%);
+      } */
+   
+  
+    }
+  
+    @media screen and (max-width: 360px) {
+        #recuperacao_senha .menu ul a {
+        display: none;
+      }
+  
+      #recuperacao_senha #divbusca {
+        display: none;
+      }ha 
+  
+      #recuperacao_senha .hamburguer {
+        display: initial;
+      }
+  
+    }
+  
+    /*CADASTRO*/
+    /* CSS reset */
+  
+  
+    #recuperacao_senha a {
+      text-decoration: none;
+     color: #dbe5e8;
+    }
+  
+    /* esconde as ancoras da tela */
+    #recuperacao_senha a.links {
+      display: none;
+    }
+  
+    /* content que contem os formulários */
+    #recuperacao_senha .content {
+      width: 750px;
+      margin: 0px auto;
+      /* position: relative; */
+    }
+  
+    /* formatando o cabeçalho dos formulários */
+  
+    #recuperacao_senha h1 {
+      font-size: 48px;
+      /* color: #066a75; */
+      color: #fff;
+      padding: 10px 0;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom: 30px;
+  
+    }
+  
+  
+    #recuperacao_senha p {
+      margin-bottom: 15px;
+    }
+  
+    #recuperacao_senha p:first-child {
+      margin: 25px;
+    }
+  
+    #recuperacao_senha label {
+      /* color: #405c60; */
+      color: #fff;
+      position: relative;
+      background-color: transparent;
+    }
+  
+  
+    #recuperacao_senha input {
+      outline: none;
+      background-color: transparent;
+    }
+  
+    #recuperacao_senha input:not([type="checkbox"]) {
+      width: 95%;
+      margin-top: 4px;
+      padding: 10px;
+      border: 1px solid #b2b2b2;
+  
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+  
+      -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+      box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      font-size: 16px;
+      font-weight: 900;
+    }
+  
+  
+    #recuperacao_senha input:hover {
+      background: var(--branco)
+    }
+  
+    /*marcando os links para mudar de um formulário para outro */
+    #recuperacao_senha .link {
+      /* position: absolute;
+      background: #e1eaeb; */
+      color: #7f7c7c;
+      /* left: 0px; */
+      padding: 17px 30px 20px 30px;
+      font-size: 20px;
+      text-align: right;
+      border-top: 1px solid #dbe5e8;
+      /* display: flex; */
+      -webkit-border-radius: 0 0 5px 5px;
+      /* border-radius: 5px; */
+      /* justify-content: center; */
+    }
+  
+    #recuperacao_senha .link a {
+      /* background: #f7f8f1; */
+      padding: 6px 23px;
+      color: #FBC02C;
+      /* border: 1px solid #cbd518; */
+  
+      -webkit-border-radius: 4px;
+      /* border-radius: 4px; */
+  
+      -webkit-transition: all 0.4s linear;
+      transition: all 0.4s linear;
+      font-weight: bolder;
+      font-size: 12px;
+      
+    }
+
+    #recuperacao_senha .link a:hover {
+      
+      
+    }
+  
+    /* estilos para para ambos os formulários */
+  
+    #recuperacao_senha  #cadastro, #login {
+      /* position: absolute; */
+      /* width: 860px; */
+      /* height: 700px; */
+      flex-shrink: 0;
+      border-radius: 26px;
+      border: 1px solid #FFF;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.70);
+      backdrop-filter: blur(20px);
+  
+      top: 0px;
+      /* width: 88%;
+      max-width: 900px; */
+      /* padding: 18px 6% 60px 6%;
+      margin: 0 0 35px 0; */
+      /* background: rgb(247, 247, 247); */
+      box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.7);
+      border: 1px solid rgba(147, 184, 189, 0.8);
+  
+      -webkit-box-shadow: 5px;
+      /* border-radius: 5px; */
+  
+      -webkit-animation-duration: 0.5s;
+      -webkit-animation-timing-function: ease;
+      -webkit-animation-fill-mode: both;
+  
+      animation-duration: 0.5s;
+      animation-timing-function: ease;
+      animation-fill-mode: both;
+  
+      background-color: transparent;
+      padding: 55px;
+    }
+  
+    #recuperacao_senha #paracadastro:target~.content #cadastro,
+    #paralogin:target~.content #login {
+      z-index: 2;
+      -webkit-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+  
+      -webkit-animation-delay: .1s;
+      animation-delay: .1s;
+    }
+  
+    #recuperacao_senha #registro:target~.content #login,
+    #paralogin:target~.content #cadastro {
+      -webkit-animation-name: fadeOutLeft;
+      animation-name: fadeOutLeft;
+    }
+  
+    /*fadeInLeft*/
+    @-webkit-keyframes fadeInLeft {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+      }
+  
+      100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+      }
+    }
+  
+    @keyframes fadeInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+  
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  
+    /*fadeOutLeft*/
+    @-webkit-keyframes fadeOutLeft {
+      0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+      }
+  
+      100% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+      }
+    }
+  
+    @keyframes fadeOutLeft {
+      0% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+  
+      100% {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+    }
+  
+    /* .linha {
+      background-color: #dbe5e8;
+      width: 480px;
+    } */
+  
+  
+    #recuperacao_senha .input {
+      display: flex;
+      width: 500px;
+      margin: 10px;
+      /* height: 40px; */
+      align-items: flex-end;
+  
+    }
+  
+    #recuperacao_senha  .contato {
+      display: flex;
+    }
+  
+    #recuperacao_senha .imagem img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    #recuperacao_senha .alinhamento {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+    #recuperacao_senha  .input-nome{
+      width: 90%;
+      max-width: 650px;
+      border-radius: 20px;
+  
+    }
+    #recuperacao_senha .input-email{
+      width: 90%;
+      max-width: 650px;
+    }
+    #recuperacao_senha .input-senha{
+      width: 90%;
+      max-width: 650px;
+    }
+  
+    #recuperacao_senha .input-conf-senha{
+      width: 90%;
+      max-width: 650px;
+    }
+    #recuperacao_senha.input-user{
+      width: 90%;
+      max-width: 650px;
+    }
+    #recuperacao_senha .input-foto{
+      width: 90%;
+      max-width: 650px;
+    }
+    #recuperacao_senha .input-submit{
+      width: 90%;
+      max-width: 150px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  
+    #recuperacao_senha .form-label{
+      width: 56px;
+      height: 46px;
+      background-color: transparent;
+    }
+      /*header new*/
+  
+  /* Cabeçalho */
+  #recuperacao_senha header {
+    background-color: var(--preto);
+    height: 70px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #recuperacao_senha .posicionamento {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  #recuperacao_senha .posicionamento_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #recuperacao_senha .posicionamento_header img {
+    width: 45px;
+  }
+  
+  #recuperacao_senha .posicionamento_header>span {
+    padding-left: 10px;
+  }
+  
+  #recuperacao_senha .logo>img{
+    color: var(--amarelo);
+  }
+  
+  #recuperacao_senha .logo {
+    display: flex;
+    align-items: center;
+    color: var(--amarelo);
+    width: 20px;
+    height: 27px;
+  }
+  #recuperacao_senha .logo>span{
+    color: var(--amarelo);
+  }
+  
+  #recuperacao_senha header nav {
+     background-color: brown; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+  }
+  
+  #recuperacao_senha header a {
+    color: var(--amarelo);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--font1);
+    font-size: 18px;
+  } 
+  
+  
+  #recuperacao_senha form{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  
+  

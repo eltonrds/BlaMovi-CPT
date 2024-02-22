@@ -1,0 +1,263 @@
+/* seção filmes e series  */
+
+
+.card-linha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    gap: 20px;
+    position: relative;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+
+    width: 250px;
+    height: 500px;
+}
+
+#teste3 {
+    position: relative;
+    top: 0;
+    padding: 4px;
+    transition: all .1s ease-in-out;
+}
+
+#teste3:hover {
+    top: -4px;
+    box-shadow: 0px 0px 10px 4px #fbc02c;
+}
+
+
+.card>img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+
+.card>div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.card>a {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card>a:hover {
+    color: var(--vermelho);
+}
+
+.itens {
+    /* width: 80%; */
+    margin-top: 20px;
+}
+
+ .streams {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.icones {
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    gap: 10px;   
+     padding: 13px 0 16px 3px;
+}
+
+#main_home .icones>img {
+    height: 25px;
+}
+
+#main_home .icones>span {
+    color: var(--amarelo);
+}
+
+.input-submit {
+    margin-top: 5%;
+    padding: 13px;
+    margin-left: 43%;
+    display: flex;
+    background-color: var(--amarelo);
+    color: var(--preto);
+    font-size: 23px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 18%;
+}
+
+.input-submit:hover {
+    background-color: var(--branco);
+    top: -4px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.267);
+}
+
+/* Swiper */
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+    --swiper-theme-color: #FBC02C;
+    background: transparent;
+}
+
+.link{
+    text-decoration:none; 
+    color: var(--amarelo);
+}
+
+
+/*  RESPONSIVO */
+@media screen and ( max-width: 1440px) {
+    .banner_texto > p,img, span{
+        text-decoration: none
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    .menu_barras {
+        display: initial;
+    }
+
+    .menu_barras svg {
+        height: 50px;
+        fill: var(--branco);
+    }
+
+    .posicionamento_header {
+        position: relative;
+    }
+
+    .posicionamento_header nav {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-color: #060821c3;
+        flex-direction: column;
+        z-index: 1;
+        padding: 5%;
+        backdrop-filter: blur(10px);
+        border-radius: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+    }
+
+    header nav a {
+        margin: 30px 0;
+        font-size: 22px;
+    }
+
+    .banner_img {
+        display: none;
+    }
+
+    .banner_texto {
+        width: 60%;
+    }
+
+    .destaque {
+        display: none;
+    }
+
+    .container_conteudo {
+        flex-direction: column;
+    }
+
+    .comentarios {
+        margin-top: 10%;
+        height: auto;
+    }
+
+    /* .responsivo{
+        display: none;
+    } */
+}
+
+@media screen and (max-width: 895px) {
+    .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    button[type="submit"]{
+        display: none;
+    }
+
+    .banner_img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    #divBusca {
+        display: none;
+    }
+
+     header nav{
+        width: 260px;
+    }
+
+    h2{
+        font-size: 35px;
+        height: 100px;
+    }
+
+    .container{
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    .container h3{
+        font-size: 40px;
+    }
+
+    .container p{
+        font-size: 20px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .input-submit{
+        margin-left: 38%;
+        font-size: 13px;
+        width: 25%;
+    }
+}

@@ -1,0 +1,294 @@
+/* BODY - Calendario */
+#main_Calendario .bn1 img {
+    width: 100%;
+    height: 250px;
+    margin-top: 70px;
+}
+
+#main_Calendario .banner_inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#main_Calendario .banner_inicio img {}
+
+#main_Calendario .card-calendario {
+    display: flex;
+    border: solid 1px #FBC02C;
+    border-radius: 30px;
+    margin: 5px 60px 15px 60px;
+    padding: 1.5%;
+}
+
+#main_Calendario .card1 {
+    width: 150px;
+    height: 225px;
+    margin-right: 30px;
+}
+
+#main_Calendario .lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_Calendario .img1 {
+    margin: -15px 0px 15px 0px;
+    width: 70px;
+    height: 130px;
+}
+
+#main_Calendario .classificaçao {
+    font-size: 13px;
+    text-align: center;
+}
+
+#main_Calendario .img2 {
+    width: 40px;
+    height: 50px;
+    align-items: center;
+}
+
+#main_Calendario h2 {
+    color: var(--amarelo);
+    font-size: 40px;
+    width: 510px;
+    text-align: right;
+}
+
+#main_Calendario h3 {
+    color: var(--amarelo);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#main_Calendario h4 {
+    color: var(--amarelo);
+    padding: 0 1% 0% 1%;
+    font-size: 30px;
+}
+
+#main_Calendario p {
+    color: var(--branco);
+    padding: 1%;
+    text-align: justify;
+}
+
+#main_Calendario span {
+    color: var(--amarelo);
+    padding: 1%;
+    margin-right: 30px;
+}
+
+#main_Calendario .btmais {
+    margin-top: 80px;
+    width: 100%;
+    height: 60px;
+}
+
+/* FOOTER */
+#main_Calendario .img-footer {
+    margin-top: 100px;
+    width: 100%;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 66.67%, #000000 100%), url(cinema_foto_pexels.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.46);
+}
+
+#main_Calendario ul {
+    color: var(--amarelo);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#main_Calendario footer>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--branco);
+}
+
+#main_Calendario footer>div>span {
+    margin-top: 10px;
+    color: var(--amarelo);
+    text-align: center;
+}
+
+#main_Calendario footer>div>img {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 1097px) {
+
+    #main_Calendario .bn1 img {
+        height: 170px;
+    }
+
+    #main_Calendario h3 {
+        margin-left: 9%;
+    }
+
+    #main_Calendario h4 {
+        font-size: 17px;
+    }
+
+    #main_Calendario .img1 {
+        margin: 0px 0px 15px 0px;
+        width: 50px;
+        height: 100px;
+    }
+
+    #main_Calendario .classificaçao {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    #main_Calendario .img2 {
+        width: 30px;
+        height: 50px;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 752px) {
+
+    #main_Calendario h2 {
+        font-size: 32px;
+        width: 410px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    #main_Calendario .bn1 img {
+        height: 100px;
+    }
+
+    #main_Calendario .banner_inicio img {
+        height: 60px;
+    }
+
+    #main_Calendario h2 {
+        font-size: 20px;
+        width: 250px;
+    }
+
+    #main_Calendario p {
+        font-size: 7px;
+        text-align: justify;
+        padding: 3%;
+    }
+
+    #main_Calendario h4 {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    #main_Calendario span {
+        font-size: 8px;
+    }
+
+
+    #main_Calendario h3 {
+        margin-left: 16%;
+        font-size: 10px;
+    }
+
+    #main_Calendario .card-calendario {
+        border: solid 0px #FBC02C;
+
+    }
+
+    #main_Calendario .img1 {
+        margin: 20px 0px 15px 0px;
+        width: 30px;
+        height: 55px;
+    }
+
+    #main_Calendario .classificaçao {
+        font-size: 6px;
+        text-align: center;
+    }
+
+    #main_Calendario .img2 {
+        width: 22px;
+        height: 22px;
+        align-items: center;
+    }
+
+    #main_Calendario .card1 {
+        width: 127px;
+        height: 225px;
+        margin-right: 9px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #main_Calendario .bn1 img {
+        height: 70px;
+    }
+
+    #main_Calendario .banner_inicio img {
+        height: 40px;
+    }
+
+    #main_Calendario h2 {
+        font-size: 15px;
+        width: 187px;
+    }
+
+    #main_Calendario p {
+        font-size: 4px;
+        text-align: justify;
+        padding: 3%;
+    }
+
+    #main_Calendario h4 {
+        margin-top: 30px;
+        font-size: 8px;
+    }
+
+    #main_Calendario span {
+        display: none;
+
+    }
+
+    #main_Calendario h3 {
+        margin-left: 22%;
+        font-size: 10px;
+    }
+
+
+    #main_Calendario .img1 {
+        margin: 20px 0px 15px 0px;
+        width: 30px;
+        height: 55px;
+    }
+
+    #main_Calendario .classificaçao {
+        font-size: 4px;
+        text-align: center;
+    }
+
+    #main_Calendario .img2 {
+        width: 22px;
+        height: 22px;
+        align-items: center;
+    }
+
+    #main_Calendario .card1 {
+        width: 100px;
+        height: 225px;
+        margin-right: 9px;
+    }
+}

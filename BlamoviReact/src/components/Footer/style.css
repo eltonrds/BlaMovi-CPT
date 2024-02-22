@@ -1,0 +1,96 @@
+/* #footer */
+
+
+
+
+
+#footer .img-footer {
+    margin-top: 0;
+    width: 100%;
+    
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 66.67%, #000000 100%), url(cinema_foto_pexels.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.46);
+    margin: 0px auto;
+}
+
+ #footer  ul {
+    color: var(--amarelo);
+    display: flex;
+    /* justify-content: space-evenly; */
+    text-align: center;
+    font-family: var(--font1);
+
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in-out;
+    list-style: none;
+    padding: 23px;
+    margin: 0px auto;
+    font-size: 10px;
+}
+
+.copy-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.copy-right>span,.img-copy{
+    color: var(--amarelo);
+}
+   
+    
+
+
+
+
+
+
+#footer ul>a {
+    text-decoration: none;
+    color: var(--amarelo);
+    margin: 0px auto;
+}
+
+#footer ul>a:hover {
+    color: var(--vermelho);
+    margin: 0px auto;
+}
+
+#footer  footer>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--branco);
+    margin-top: 20px;
+    margin: 0px auto;
+}
+
+#footer footer>div>span,
+footer p {
+    margin-top: 10px;
+    color: var(--amarelo);
+    text-align: center;
+    margin: 0px auto;
+}
+
+#footer  footer>div>img {
+    width: 20px;
+    height: 27px;
+    margin: 0px auto;
+}
+
+#footer footer>div>span {
+    color: var(--amarelo);
+    margin: 0px auto;
+}
+
+#footer .img-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 60px;
+}
+
+
